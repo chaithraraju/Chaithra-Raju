@@ -1,0 +1,66 @@
+<html>
+    <head>
+            
+        <title>Registration Form</title>
+        </head>
+        <body style="border: 3px solid black; ">
+         <form action="successRegister.html">
+        <table>
+         <tr>
+         <td> Enter &nbsp;&nbsp;&nbsp;&nbsp;Your Name: 
+         <input type="text" name="Name" placeholder="Enetr Your Name" required>
+         </td>
+         </tr>
+         <tr>
+         <td> Mobile&ensp; Number: <input type="number" name="Mobile Number" placeholder="skip +91" required></td>
+         </tr>
+         <tr>
+         <td> Email&emsp; ID: <input type="email" name="Email" placeholder="use @gmail.com only" required></td>
+         </tr>
+         <tr>
+         <td> Course Interested:</td>
+         <td>
+         <select name="Course" required>
+         <option value="jfs">Java Fullstack</option>
+         <option value="at">Automation Testing</option>
+         </select></td>
+         </tr>
+         <tr>
+
+               <td> Are you a Graduate?<input id="grad1" type="radio" name="Graduate" value="yes">  <lable for="grad1">Yes</lable>
+                <input type="radio" name="Graduate" value="no"><lable for="grad2">No</lable></td>
+               </tr>
+               <tr>
+                <td>Language Known</td>
+                <td>
+                    <input type="checkbox" name="language" value="English" checked>english <br>
+                    <input type="checkbox" name="language" value="hindi">Hindi<br>
+                    <input type="checkbox" name="language" value="telugu">Telugu<br>
+                    <input type="checkbox" name="language" value="Kannada">Kannada<br>
+                </tr>
+                <tr>
+                    <td>Give Your valuable Insights</td>
+                    <td><textarea name="insights" rows="8" cols="50" required></textarea></td>
+                    </tr>
+                    <tr>
+                <td>Enter Password</td>
+                <td><input name="password" type="password" required></td>
+                    </tr>
+                    <tr>
+                        <td>Confirm Password</td>
+                        <td><input name="cpassword" type="password" required></td>
+                            </tr>
+                            <tr>
+                                <td>Already have an Account?
+                                <a href="login.html"><input type="button" value="Login">
+                                </td></a>
+                               
+                                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Register me"></td>
+                </table>
+                </form>
+            </body>
+
+    </html>
